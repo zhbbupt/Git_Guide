@@ -108,3 +108,7 @@ git commit 规范
 更新：Update name
 
 回滚到某一版：Revert 哈希码前四位
+
+跟源分支：1. git remote add upstream 地址 如(git remote add upstream https://github.com/octocat/Spoon-Knife.git)
+          2. git fetch upstream
+          3. git merge upstream/master
